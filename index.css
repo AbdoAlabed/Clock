@@ -1,3 +1,14 @@
 #clc{
-	border-radius: 50px;
+
+	border: 2px solid #14e3ce ;
+	border-radius: 500px;
+	background-color: rgb(34,36,50);
+	margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 }
