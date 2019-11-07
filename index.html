@@ -11,6 +11,20 @@
 	<script type="text/javascript" src="clock.js"></script>
 </head>
 <body>
+	<div>
+	<span class="h1">1</span>
+	<span class="h2">2</span>
+	<span class="h3">3</span>
+	<span class="h4">4</span>
+	<span class="h5">5</span>
+	<span class="h6">6</span>
+    <span class="h7">7</span>
+	<span class="h8">8</span>
+	<span class="h9">9</span>
+	<span class="h10">10</span>
+	<span class="h11">11</span>
+	<span class="h12">12</span>
+	</div>
 <canvas id="clc" width="400" height="400"></canvas>
 <script>
 
@@ -32,6 +46,13 @@ function centerClock(){
     ctx.stroke();
 }
 centerClock();
+
+function clockWise(){
+	ctx.moveTo(200,15)
+	ctx.lineTo(200,185)
+	ctx.stroke();
+}
+clockWise();
 </script>
 </body>
 </html>

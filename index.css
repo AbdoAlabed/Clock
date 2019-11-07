@@ -12,3 +12,27 @@
     right: 0;
 
 }
+span{
+	position: absolute;
+	display: inline-block;
+	color : #14e3ce ;
+	z-index: 4;
+	font-size: 22px;
+}
+.h12{
+    top: 140px;
+    left: 49.4%;
+    
+}
+.h6{
+    top: 495px;
+    left: 49.4%;
+}
+.h3{
+    top: 315px;
+    left: 63%;
+}
+.h9{
+    top: 315px;
+    left: 36.4%;
+}
