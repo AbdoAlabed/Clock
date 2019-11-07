@@ -1,6 +1,9 @@
-/*function myClock(){
-	var canras = $("#clc");
-	var ctx = canras.getContext('2d')
+	function myClock(){
+	var canras = document.getElementById('clc');
+	var ctx = canras.getContext("2d")
 	ctx.beginPath();
-	ctx.arc(100,50,50,0,2*Math.PI)
-}*/
+	ctx.arc(200, 200, 195, 0, 2 * Math.PI);
+	ctx.strokeStyle = "#FFffff";
+	ctx.stroke();
+}
+myClock();
