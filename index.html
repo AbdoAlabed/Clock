@@ -26,11 +26,18 @@
 	<span class="h12">12</span>
 	</div>
 <canvas id="clc" width="400" height="400"></canvas>
+<canvas id="clc1" ></canvas>
+<canvas id="clc2" ></canvas>
+
 <script>
 
 	var canras = document.getElementById('clc');
 	var ctx = canras.getContext("2d")
-	
+	var canras2 = document.getElementById('clc1');
+	var ctx2 = canras2.getContext("2d")
+	var canras3 = document.getElementById('clc2');
+	var ctx3 = canras3.getContext("2d")
+
 	function myClock(){
 	ctx.beginPath();
 	ctx.arc(200, 200, 195, 0, 2 * Math.PI);
@@ -42,15 +49,31 @@ myClock();
 function centerClock(){
     ctx.beginPath();
     ctx.arc(200, 200, 15, 0 ,2 * Math.PI)
-    ctx.strokeStyle = "#14e3ce"
+    ctx.strokeStyle = "#ba0202"
+   // ctx.fillStyle = "#000000";
+    //ctx.fill();
     ctx.stroke();
 }
 centerClock();
 
 function clockWise(){
-	ctx.moveTo(200,15)
-	ctx.lineTo(200,185)
+	ctx.moveTo(200,20);
+	ctx.lineTo(200,185);
 	ctx.stroke();
+
+	ctx2.moveTo(170,5)
+	ctx2.lineTo(150,132)
+	ctx2.lineWidth = 4;
+	ctx2.lineCap = "round";
+	ctx2.strokeStyle = "white";
+	ctx2.stroke();
+
+	ctx3.moveTo(190,60)
+	ctx3.lineTo(150,132)
+	ctx3.lineWidth = 4;
+	ctx3.lineCap = "round";
+	ctx3.strokeStyle = "white";
+	ctx3.stroke();
 }
 clockWise();
 </script>

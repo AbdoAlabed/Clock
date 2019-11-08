@@ -12,6 +12,24 @@
     right: 0;
 
 }
+#clc1{
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+}
+#clc2{
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+}
 span{
 	position: absolute;
 	display: inline-block;
@@ -20,19 +38,19 @@ span{
 	font-size: 22px;
 }
 .h12{
-    top: 140px;
+    top: 180px;
     left: 49.4%;
     
 }
 .h6{
-    top: 495px;
+    top: 545px;
     left: 49.4%;
 }
 .h3{
-    top: 315px;
-    left: 63%;
+    top: 363px;
+    left: 61.5%;
 }
 .h9{
-    top: 315px;
-    left: 36.4%;
+    top: 363px;
+    left: 38%;
 }
